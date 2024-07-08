@@ -11,26 +11,31 @@ html {
 .main-container {
   background-color: #3c0c96;
   padding: 1rem;
-  width: 500px;
   margin: 1rem;
   border-radius: 10px;
-  background: linear-gradient(to right top, #26174d, #4f04d1);
+  background: linear-gradient(to right top, #1d1239, #5504df);
+  display: flex;
+  flex-direction: column;
 }
 
-.bnb-container {
+.swap-item-container {
   padding: 1rem;
-  border: 1px solid #fff;
+  border: 1.2px solid #f6f4f4;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  /* margin-top: 1rem; */
 }
 
 .bnb-text {
   color: #fff;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .amount-info-container {
   margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
