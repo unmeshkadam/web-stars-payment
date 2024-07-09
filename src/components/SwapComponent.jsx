@@ -67,10 +67,10 @@ const SwapComponent = () => {
             textTransform: "none",
             my: "-10px",
             fontSize: "14px",
-            backgroundColor: "#3f0b9e",
+            backgroundColor: "#046577",
             "&:hover": {
               cursor: "pointer",
-              backgroundColor: "#3f0b9e",
+              backgroundColor: "#044956",
               borderColor: "#fff",
             },
           }}
@@ -155,7 +155,7 @@ const SwapComponent = () => {
           }}
         >
           <InfoIcon sx={{ fontSize: "20px", color: "#fff" }} />{" "}
-          <p style={{ color: "#fff", fontSize: "15px", marginLeft: "5px" }}>
+          <p style={{ color: "#fff", fontSize: "13px", marginLeft: "5px" }}>
             Swap plus %0.7 network fee
           </p>
         </Box>

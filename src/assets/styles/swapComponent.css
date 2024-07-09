@@ -11,9 +11,13 @@ html {
 .main-container {
   background-color: #3c0c96;
   padding: 1rem;
-  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   border-radius: 10px;
-  background: linear-gradient(to right top, #1d1239, #5504df);
+  /* background: linear-gradient(to right top, #010001, #5b00f7); */
+  background: linear-gradient(to right top, #010001, #07bbdb);
   display: flex;
   flex-direction: column;
 }

@@ -2,17 +2,21 @@ import { Box } from "@mui/material";
 import "./App.css";
 import SwapComponent from "./components/SwapComponent";
 import Introduction from "./components/Introduction";
+import PaidAmount from "./components/PaidAmount";
 import { ThemeProvider } from "@mui/material";
 import theme from "./config/themeConfig";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{ backgroundColor: "#fff", height: "100vh", display: "flex" }}>
-        {/* <Box sx={{ display: "flex", flexDirection: "column", width: '30%' }}> */}
+      <Box sx={{ backgroundColor: "#000", height: "100%", display: "flex" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", width: "30%" }}>
           <Introduction />
-          {/* <SwapComponent /> */}
-        {/* </Box> */}
+          <SwapComponent />
+        </Box>
+        <Box sx={{ display: "flex", flexDirection: "column", width: "40%" }}>
+          <PaidAmount />
+        </Box>
       </Box>
     </ThemeProvider>
   );
