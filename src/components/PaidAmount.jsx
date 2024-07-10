@@ -114,6 +114,31 @@ const PaidAmount = () => {
           </Box>
         </Box>
       </Box>
+      <Box sx={{ m: 1, border: "1px solid #fff", borderRadius: "10px", p: 3 }}>
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography sx={{ fontSize: "12px", fontWeight: 400 }}>
+            AMOUNT
+          </Typography>
+          <Box
+            sx={{
+              marginLeft: "5px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <CircleIcon
+              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+            />
+            <CircleIcon
+              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+            />
+            <CircleIcon
+              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+            />
+          </Box>
+        </Box>
+      </Box>
     </Box>
   );
 };
