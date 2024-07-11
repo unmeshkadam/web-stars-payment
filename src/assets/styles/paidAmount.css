@@ -17,5 +17,22 @@ html {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  color: #fff
+  color: #fff;
+}
+
+.country-currency-icon {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: url("../img/usa_flag.jpg") no-repeat center / cover;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.profile-img-icon{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: url("../img/profile.webp") no-repeat center / cover;
+  padding: 15px;
 }

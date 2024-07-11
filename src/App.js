@@ -14,7 +14,7 @@ function App() {
           <Introduction />
           <SwapComponent />
         </Box>
-        <Box sx={{ display: "flex", flexDirection: "column", width: "40%" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", width: "45%" }}>
           <PaidAmount />
         </Box>
       </Box>

@@ -5,12 +5,19 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import CircleIcon from "@mui/icons-material/Circle";
 import AllOutIcon from "@mui/icons-material/AllOut";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import CheckIcon from "@mui/icons-material/Check";
+import AppleIcon from "@mui/icons-material/Apple";
 
 const PaidAmount = () => {
   return (
     <Box className="paid-amount-container">
       <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "10px", color: "#cccccc" }}>10:48</p>
+        <Typography
+          style={{ fontSize: "10px", fontWeight: 500, color: "#cccccc" }}
+        >
+          10:48
+        </Typography>
         <Box
           sx={{
             display: "flex",
@@ -61,8 +68,8 @@ const PaidAmount = () => {
           >
             <ShowChartIcon sx={{ fontSize: "15px", color: "#000" }} />
           </Box>
-          <p
-            style={{
+          <Typography
+            sx={{
               color: "#fff",
               fontSize: "13px",
               fontWeight: 400,
@@ -70,7 +77,7 @@ const PaidAmount = () => {
             }}
           >
             Payments
-          </p>
+          </Typography>
         </Box>
         <Box
           sx={{
@@ -114,9 +121,17 @@ const PaidAmount = () => {
           </Box>
         </Box>
       </Box>
-      <Box sx={{ m: 1, border: "1px solid #fff", borderRadius: "10px", p: 3 }}>
+      <Box
+        sx={{
+          m: 1,
+          border: "1px solid #6b6a6a",
+          borderRadius: "10px",
+          p: 3,
+          boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+        }}
+      >
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography sx={{ fontSize: "12px", fontWeight: 400 }}>
+          <Typography sx={{ fontSize: "10px", fontWeight: 400 }}>
             AMOUNT
           </Typography>
           <Box
@@ -125,17 +140,152 @@ const PaidAmount = () => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              cursor: "pointer",
             }}
           >
             <CircleIcon
-              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+              sx={{ color: "#cccccc", fontSize: "5px", marginRight: "2px" }}
             />
             <CircleIcon
-              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+              sx={{ color: "#cccccc", fontSize: "5px", marginRight: "2px" }}
             />
             <CircleIcon
-              sx={{ color: "#cccccc", fontSize: "6px", marginRight: "2px" }}
+              sx={{ color: "#cccccc", fontSize: "5px", marginRight: "2px" }}
             />
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            mt: 1,
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "baseline",
+              justifyContent: "center",
+            }}
+          >
+            <Typography sx={{ fontSize: "15px", marginRight: 0.4 }}>
+              $
+            </Typography>
+            <Typography
+              sx={{ fontSize: "35px", fontWeight: 500, marginRight: 0.6 }}
+            >
+              178,49
+            </Typography>
+            <Box
+              sx={{
+                border: "1px solid #71797E",
+                height: "30px",
+                width: "1px",
+                marginRight: 0.6,
+              }}
+            ></Box>
+            <Typography
+              sx={{ fontSize: "15px", color: "gray", fontWeight: 500 }}
+            >
+              .00
+            </Typography>
+          </Box>
+          <Box
+            sx={{
+              backgroundColor: "#2a2b2e",
+              borderRadius: "15px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              py: 0.6,
+              px: 1,
+              cursor: "pointer",
+            }}
+          >
+            <Typography sx={{ fontSize: "10px", fontWeight: 500 }}>
+              USD
+            </Typography>
+            <ArrowDropDownIcon sx={{ fontSize: "10px", fontWeight: 500 }} />
+            <Box className="country-currency-icon"></Box>
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "60%",
+            my: 3,
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            sx={{ fontSize: "38px", fontWeight: 500, marginRight: "5px" }}
+          >
+            Successfully Paid
+            <CheckIcon
+              sx={{ fontSize: "20px", color: "#71797E", marginLeft: "5px" }}
+            />
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            my: 3,
+            px: 1,
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Box className="profile-img-icon"></Box>
+            <Box
+              sx={{
+                border: "1px solid #636262",
+                height: "30px",
+                width: "1px",
+                mx: 1.5,
+              }}
+            ></Box>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-start",
+              }}
+            >
+              <Typography sx={{ fontSize: "9px", color: "#b8bcbe" }}>
+                To
+              </Typography>
+              <Typography
+                sx={{ fontSize: "12px", color: "#b8bcbe", fontWeight: 500 }}
+              >
+                Halle Carver
+              </Typography>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              backgroundColor: "#2a2b2e",
+              borderRadius: "15px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              px: 1,
+              cursor: "pointer",
+              border: "1px solid #5c5c5c",
+            }}
+          >
+            <AppleIcon sx={{ fontSize: "10px", fontWeight: 500 }} />
+            <Typography sx={{ fontSize: "8px", fontWeight: 500, mx: "3px" }}>
+              Pay
+            </Typography>
           </Box>
         </Box>
       </Box>

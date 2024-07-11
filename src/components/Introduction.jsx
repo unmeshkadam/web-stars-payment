@@ -25,11 +25,12 @@ const Introduction = () => {
           fontSize: "9px",
           marginTop: "20px",
           width: "75%",
-          fontWeight: 400
+          fontWeight: 400,
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. luctus vulputate metus ultrices. Suspendisse in
-        tempor ex. Donec rhoncus, dui a congue sodales,
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. luctus
+        vulputate metus ultrices. Suspendisse in tempor ex. Donec rhoncus, dui a
+        congue sodales,
       </Box>
       <Box
         sx={{
@@ -71,8 +72,8 @@ const Introduction = () => {
             fontSize: "10px",
             backgroundColor: "#000",
             marginLeft: "10px",
+            cursor: "pointer",
             "&:hover": {
-              cursor: "pointer",
               backgroundColor: "#000",
               borderColor: "#fff",
             },
