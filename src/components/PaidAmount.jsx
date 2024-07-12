@@ -277,7 +277,7 @@ const PaidAmount = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              px: 1,
+              px: 1.5,
               cursor: "pointer",
               border: "1px solid #5c5c5c",
             }}

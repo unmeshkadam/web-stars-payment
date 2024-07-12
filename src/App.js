@@ -3,6 +3,7 @@ import "./App.css";
 import SwapComponent from "./components/SwapComponent";
 import Introduction from "./components/Introduction";
 import PaidAmount from "./components/PaidAmount";
+import MainWallet from "./components/MainWallet";
 import { ThemeProvider } from "@mui/material";
 import theme from "./config/themeConfig";
 
@@ -16,6 +17,7 @@ function App() {
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column", width: "45%" }}>
           <PaidAmount />
+          <MainWallet />
         </Box>
       </Box>
     </ThemeProvider>
