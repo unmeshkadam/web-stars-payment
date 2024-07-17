@@ -2,6 +2,7 @@ import "../assets/styles/mainWallet.css";
 import { Box, Typography } from "@mui/material";
 import LayersIcon from "@mui/icons-material/Layers";
 import AlbumIcon from "@mui/icons-material/Album";
+import CircleIcon from "@mui/icons-material/Circle";
 
 const MainWallet = () => {
   return (
@@ -239,7 +240,13 @@ const MainWallet = () => {
         </Box>
       </Box>
       <Box
-        sx={{ display: "flex", justifyContent: "space-between", mx: 2, mt: 1 }}
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "baseline",
+          mx: 2,
+          mt: 1,
+        }}
       >
         <Box sx={{ display: "flex", alignItems: "baseline" }}>
           <Typography sx={{ fontSize: "60px", fontWeight: 600 }}>
@@ -255,7 +262,13 @@ const MainWallet = () => {
             </Typography>
           </Box>
         </Box>
-        <Box sx={{ display: "flex", justifyContent:'center',alignItems: "baseline" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "baseline",
+          }}
+        >
           <Box
             sx={{
               backgroundColor: "#2a2b2e",
@@ -263,16 +276,31 @@ const MainWallet = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              py: 0.5,
-              px: 1,
+              p: 0.7,
               cursor: "pointer",
-              border: "1px solid #5c5c5c",
+              border: "1px solid #292929",
               color: "#d3d3d3",
             }}
           >
-            <Typography sx={{ fontSize: "10px", fontWeight: 600, mx: "3px" }}>
-              14%
-            </Typography>
+            <CircleIcon sx={{ color: "#dd3d3", fontSize: "5px", mr: 0.3 }} />
+            <CircleIcon sx={{ color: "#434343", fontSize: "5px", mr: 0.3 }} />
+            <CircleIcon sx={{ color: "#434343", fontSize: "5px" }} />
+          </Box>
+          <Box
+            sx={{
+              backgroundColor: "#2a2b2e",
+              borderRadius: "15px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              pl: 1.5,
+              cursor: "pointer",
+              border: "1px solid #292929",
+              color: "#8B8D98",
+              ml: 1,
+            }}
+          >
+            <CircleIcon sx={{ color: "#dd3d3", fontSize: "15px" }} />
           </Box>
         </Box>
       </Box>

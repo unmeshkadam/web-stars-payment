@@ -16,8 +16,8 @@ html {
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 10px;
-  /* background: linear-gradient(to right top, #010001, #5b00f7); */
-  background: linear-gradient(to right top, #0a343b, #0d98b0);
+  background: linear-gradient(to right top, #172f43, #3978ac);
+  /* background: linear-gradient(to right top, #0a343b, #0d98b0); */
   display: flex;
   flex-direction: column;
 }
