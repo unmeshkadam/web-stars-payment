@@ -28,7 +28,7 @@ const InsightsComponent = () => {
           <CircleIcon sx={{ color: "#cccccc", fontSize: "5px" }} />
         </Box>
       </Box>
-      <Box sx={{ display: "flex", flexDirection: "column", my: 2 }}>
+      <Box sx={{ display: "flex", flexDirection: "column", mt: 2 }}>
         <Typography
           sx={{ fontSize: "10px", color: "#d3d3d3", fontWeight: 500 }}
         >
@@ -36,7 +36,7 @@ const InsightsComponent = () => {
         </Typography>
         <Box sx={{ display: "flex", alignItems: "baseline", mt: 1 }}>
           <Typography sx={{ fontSize: "12px" }}>$</Typography>
-          <Typography sx={{ fontSize: "30px", ml: "5px" }}>954.309</Typography>
+          <Typography sx={{ fontSize: "40px", ml: "5px" }}>954.309</Typography>
         </Box>
       </Box>
       <Box className="insights-chart">
