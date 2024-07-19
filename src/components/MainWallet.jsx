@@ -37,7 +37,7 @@ const MainWallet = () => {
           </Box>
           <Box
             sx={{
-              backgroundColor: "#0d98b0",
+              backgroundColor: "#3671a3",
               borderRadius: "15px",
               display: "flex",
               justifyContent: "center",
@@ -135,7 +135,7 @@ const MainWallet = () => {
           >
             <Box
               sx={{
-                background: "linear-gradient(to right, #1cbee1, #fe6320)",
+                background: "linear-gradient(to right, #3671a3, #d9551c)",
                 borderRadius: "15px",
                 display: "flex",
                 justifyContent: "center",

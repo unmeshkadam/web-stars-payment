@@ -131,7 +131,7 @@ const PaidAmount = () => {
         }}
       >
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography sx={{ fontSize: "10px", fontWeight: 400 }}>
+          <Typography sx={{ fontSize: "10px", fontWeight: 400, color:'#D3D3D3' }}>
             AMOUNT
           </Typography>
           <Box

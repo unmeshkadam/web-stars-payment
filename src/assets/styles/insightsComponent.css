@@ -8,8 +8,8 @@ html {
   font-size: 18px;
 }
 
-.visa-card-container {
-  background-color: #141414;
+.insights-main-container {
+  background-color: #141519;
   padding: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -17,7 +17,9 @@ html {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  border: 0.6px solid;
-  border-top-color: #914c22;
-  border-left-color: #a45626;
+  color: #fff;
+}
+
+.insights-chart{
+
 }

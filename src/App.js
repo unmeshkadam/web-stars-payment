@@ -5,6 +5,7 @@ import Introduction from "./components/Introduction";
 import PaidAmount from "./components/PaidAmount";
 import MainWallet from "./components/MainWallet";
 import BenefitsComponent from "./components/BenefitsComponent";
+import InsightsComponent from "./components/InsightsComponent";
 import VisaCard from "./components/VisaCard";
 import { ThemeProvider } from "@mui/material";
 import theme from "./config/themeConfig";
@@ -23,6 +24,7 @@ function App() {
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column", width: "25%" }}>
           <BenefitsComponent />
+          <InsightsComponent />
           <VisaCard />
         </Box>
       </Box>
