@@ -127,7 +127,7 @@ const PaidAmount = () => {
           border: "1px solid #6b6a6a",
           borderRadius: "10px",
           p: 3,
-          boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+          boxShadow: "rgba(149, 157, 165, 0.5) 0px 8px 24px",
         }}
       >
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>

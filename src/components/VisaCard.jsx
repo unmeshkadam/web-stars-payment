@@ -16,7 +16,7 @@ const VisaCard = () => {
       >
         <DonutSmallIcon sx={{ color: "#909090", fontSize: "35px" }} />
         <WifiIcon
-          sx={{ color: "#363636", fontSize: "20px", rotate: "90deg" }}
+          sx={{ color: "#5c5c5c", fontSize: "20px", rotate: "90deg" }}
         />
       </Box>
       <Box
@@ -30,11 +30,20 @@ const VisaCard = () => {
       >
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Box sx={{ display: "flex" }}>
-            <Typography sx={{ fontSize: "10px", color: "#d3d3d3", mr: 2 }}>
+            <Box sx={{ display: "flex", flexDirection: "column" }}>
+              <Typography
+                sx={{ fontSize: "5px", color: "#d3d3d3", fontWeight: 600 }}
+              >
+                VALID
+              </Typography>
+              <Typography
+                sx={{ fontSize: "5px", color: "#d3d3d3", fontWeight: 600 }}
+              >
+                THRU
+              </Typography>
+            </Box>
+            <Typography sx={{ fontSize: "10px", color: "#d3d3d3", ml: 1 }}>
               03/24
-            </Typography>
-            <Typography sx={{ fontSize: "10px", color: "#d3d3d3", ml: 2 }}>
-              345
             </Typography>
           </Box>
           <Box>

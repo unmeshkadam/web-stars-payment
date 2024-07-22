@@ -65,7 +65,7 @@ const BenefitsComponent = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ mt: 2 }}>
+      <Box sx={{ mt: 2.5 }}>
         <Typography sx={{ fontSize: "13px", color: "#EBEBEB" }}>
           * $48,867.00
         </Typography>
