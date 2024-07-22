@@ -68,9 +68,9 @@ const SwapComponent = () => {
             my: "-10px",
             fontSize: "14px",
             backgroundColor: "#2a577d",
+            cursor: "pointer",
             "&:hover": {
-              cursor: "pointer",
-              backgroundColor: "#2a577d",
+              backgroundColor: "#1f405b",
               borderColor: "#fff",
             },
           }}

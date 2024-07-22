@@ -29,6 +29,9 @@ const MainWallet = () => {
               border: "1px solid #5c5c5c",
               mr: 1,
               color: "#d3d3d3",
+              "&:hover": {
+                backgroundColor: "#000",
+              },
             }}
           >
             <Typography sx={{ fontSize: "8px", fontWeight: 500, mx: "3px" }}>
@@ -65,6 +68,9 @@ const MainWallet = () => {
               cursor: "pointer",
               border: "1px solid #5c5c5c",
               color: "#d3d3d3",
+              "&:hover": {
+                backgroundColor: "#000",
+              },
             }}
           >
             <Typography sx={{ fontSize: "8px", fontWeight: 500, mx: "3px" }}>
@@ -266,7 +272,7 @@ const MainWallet = () => {
           sx={{
             display: "flex",
             justifyContent: "center",
-            alignItems: "baseline",
+            alignItems: "center",
           }}
         >
           <Box

@@ -43,7 +43,9 @@ const BenefitsComponent = () => {
         />
       </Box>
       <Box sx={{ my: 3, display: "flex", flexDirection: "column" }}>
-        <Typography sx={{ fontSize: "15px", color: "#EBEBEB" }}>
+        <Typography
+          sx={{ fontSize: "13px", color: "#EBEBEB", fontWeight: 500 }}
+        >
           BENEFITS
         </Typography>
         <Box

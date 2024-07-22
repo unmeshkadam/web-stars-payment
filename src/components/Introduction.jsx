@@ -9,7 +9,7 @@ const Introduction = () => {
         sx={{
           color: "#fff",
           fontSize: "20px",
-          fontFamily: '"Plus Jakarta Sans", sans-serif',
+          fontFamily: '"Antic Slab", serif',
           fontWeight: 500,
           fontStyle: "normal",
         }}
@@ -48,8 +48,8 @@ const Introduction = () => {
             textTransform: "none",
             fontSize: "10px",
             backgroundColor: "#000",
+            cursor: "pointer",
             "&:hover": {
-              cursor: "pointer",
               backgroundColor: "#000",
               borderColor: "#fff",
             },

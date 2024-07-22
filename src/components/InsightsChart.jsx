@@ -30,6 +30,9 @@ class InsightsChart extends React.Component {
           width: 5,
           curve: "smooth",
         },
+        tooltip: {
+          enabled: false,
+        },
         xaxis: {
           type: "datetime",
           categories: [

@@ -131,7 +131,9 @@ const PaidAmount = () => {
         }}
       >
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography sx={{ fontSize: "10px", fontWeight: 400, color:'#D3D3D3' }}>
+          <Typography
+            sx={{ fontSize: "10px", fontWeight: 400, color: "#D3D3D3" }}
+          >
             AMOUNT
           </Typography>
           <Box
@@ -280,6 +282,9 @@ const PaidAmount = () => {
               px: 1.5,
               cursor: "pointer",
               border: "1px solid #5c5c5c",
+              "&:hover": {
+                backgroundColor: "#000",
+              },
             }}
           >
             <AppleIcon sx={{ fontSize: "10px", fontWeight: 500 }} />

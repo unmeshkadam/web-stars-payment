@@ -20,7 +20,13 @@ const VisaCard = () => {
         />
       </Box>
       <Box
-        sx={{ display: "flex", justifyContent: "space-between", mt: 2, mx: 1 }}
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          mt: 2,
+          mx: 1,
+          alignItems: "center",
+        }}
       >
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Box sx={{ display: "flex" }}>
@@ -37,6 +43,16 @@ const VisaCard = () => {
             </Typography>
           </Box>
         </Box>
+        <Typography
+          sx={{
+            fontSize: "10px",
+            fontWeight: 600,
+            fontStyle: "italic",
+            color: "#9c9c9c",
+          }}
+        >
+          VISA
+        </Typography>
       </Box>
     </Box>
   );
