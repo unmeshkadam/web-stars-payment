@@ -16,7 +16,7 @@ const Introduction = () => {
       >
         Web Stars
       </Box>
-      <Box sx={{ color: "#fff", fontSize: "37px", marginTop: "10px" }}>
+      <Box sx={{ color: "#fff", fontSize: "37px", marginTop: "10px", width:'70%' }}>
         Fast Pay for Payments
       </Box>
       <Box
